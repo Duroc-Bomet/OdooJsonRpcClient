@@ -120,10 +120,10 @@ namespace PortaCapena.OdooJsonRpcClient.Models
                 case "monetary":
                     return OdooValueTypeEnum.Monetary;
                 
-                case “properties”:
+                case "properties":
                     return OdooValueTypeEnum.Properties;
                 
-                case “properties_definition”:
+                case "properties_definition":
                     return OdooValueTypeEnum.PropertiesDefinition;                    
 
             }
@@ -153,6 +153,9 @@ namespace PortaCapena.OdooJsonRpcClient.Models
 
         Selection,
         Text,
-        Html
+        Html,
+        
+        PropertiesDefinition,
+        Properties
     };
 }
